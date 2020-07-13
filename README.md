@@ -2,6 +2,10 @@
 
 > Auto-Sync GitHub Repositories to Gitee
 
+![Mirror GitHub Repos to Gitee](README.assets/badge.svg) [![MIT license](README.assets/License-MIT-blue.svg)](https://raw.githubusercontent.com/ShixiangWang/sync-deploy/master/LICENSE)
+
+
+
 基于 action <https://github.com/Yikun/hub-mirror-action> 实现。
 
 

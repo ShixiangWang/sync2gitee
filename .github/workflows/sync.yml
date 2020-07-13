@@ -1,7 +1,10 @@
 on:
+  push:
+    # delete this item if you don't want to trigger this workflow when modify this repo
+    branches: master
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '0 0 * * *'
+    - cron: '0 0 * * *'
 name: Mirror GitHub Repos to Gitee
 jobs:
   run:

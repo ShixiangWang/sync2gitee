@@ -4,7 +4,8 @@ on:
     branches: master
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron: '0 0 * * *'
+    # UTC 17:00 -> CST (China) 1:00, see https://datetime360.com/cn/utc-cst-china-time/
+    - cron: '0 17 * * *'
 name: Mirror GitHub Repos to Gitee
 jobs:
   run:

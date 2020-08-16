@@ -8,7 +8,7 @@
 
 基于 action <https://github.com/Yikun/hub-mirror-action> 实现。
 
-首先你需要通过搜索了解下什么是 GitHub Action，它的配置文件在仓库的 `.github/workflows` 下面。然后 Fork 本仓库，或者自己新建一个仓库（但需要自己添加 [Action 配置文件](https://github.com/ShixiangWang/sync2gitee/blob/master/.github/workflows/sync.yml)）。
+首先你需要通过搜索了解下什么是 GitHub Action，它的配置文件在仓库的 `.github/workflows` 下面。然后 Fork 本仓库，或者自己新建一个仓库（但需要自己添加 [Action 配置文件](https://github.com/ShixiangWang/sync2gitee/blob/master/.github/workflows/auto-sync.yml)）。
 
 1. 基于 SSH 配置公钥和私钥，[参考]([https://github.com/ShixiangWang/sync-deploy#%E5%87%86%E5%A4%87%E4%B8%8E%E9%85%8D%E7%BD%AE](https://github.com/ShixiangWang/sync-deploy#准备与配置))或网上N多资料。
 

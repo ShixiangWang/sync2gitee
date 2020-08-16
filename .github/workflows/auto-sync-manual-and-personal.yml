@@ -1,0 +1,24 @@
+on:
+  push:
+    # delete this item if you don't want to trigger this workflow when modify this repo
+    branches: master
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    # UTC 20:00 -> CST (China) 4:00, see https://datetime360.com/cn/utc-cst-china-time/
+    - cron: '0 20 * * *'
+name: Mirror GitHub Selected Repos to Gitee
+jobs:
+  run:
+    name: Sync-Gitee-Manual-and-Personal
+    runs-on: ubuntu-latest
+    steps:
+    - name: Mirror the sigminer repos to Gitee.
+      uses: Yikun/hub-mirror-action@master
+      with:
+        src: github/ShixiangWang
+        dst: gitee/ShixiangWang
+        dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+        dst_token: ${{ secrets.GITEE_TOKEN }}
+        account_type: user
+        static_list: 'sigminer,CNVMotif,sigminer.workflow,tinyscholar'
+        force_update: true

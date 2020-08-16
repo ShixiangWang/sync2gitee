@@ -2,7 +2,7 @@
 
 > Auto-Sync GitHub Repositories to Gitee
 
-![Mirror GitHub Repos to Gitee](https://github.com/ShixiangWang/sync2gitee/workflows/Mirror%20GitHub%20Repos%20to%20Gitee/badge.svg) [![MIT license](README.assets/License-MIT-blue.svg)](https://raw.githubusercontent.com/ShixiangWang/sync-deploy/master/LICENSE)
+![Mirror GitHub Auto Queried Repos to Gitee](https://github.com/ShixiangWang/sync2gitee/workflows/Mirror%20GitHub%20Auto%20Queried%20Repos%20to%20Gitee/badge.svg) ![Mirror GitHub Selected Repos to Gitee](https://github.com/ShixiangWang/sync2gitee/workflows/Mirror%20GitHub%20Selected%20Repos%20to%20Gitee/badge.svg) [![MIT license](README.assets/License-MIT-blue.svg)](https://raw.githubusercontent.com/ShixiangWang/sync-deploy/master/LICENSE)
 
 
 

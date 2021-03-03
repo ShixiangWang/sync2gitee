@@ -3,9 +3,9 @@ on:
     # delete this item if you don't want to trigger this workflow when modify this repo
     branches: master
   schedule:
-    # * is a special character in YAML so you have to quote this string
-    # UTC 20:00 -> CST (China) 4:00, see https://datetime360.com/cn/utc-cst-china-time/
     - cron: '0 20 * * *'
+  pull_request:
+    branches: master
 name: Mirror GitHub Selected Repos to Gitee
 jobs:
   run:

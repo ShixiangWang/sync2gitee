@@ -19,4 +19,5 @@ jobs:
         dst: gitee/ShixiangWang
         dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
         dst_token: ${{ secrets.GITEE_TOKEN }}
+        mappings: ".github=>github"
         force_update: true
